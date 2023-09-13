@@ -3,7 +3,7 @@ import React from 'react'
 const Main = () => {
   return (
     <div className='min-h-screen bg-black'>
-        <div className='mx-4 md:mx-20'>
+        {/* <div className='mx-4 md:mx-20'>
         <div className='flex pt-4 md:justify-between md:p-4 items-center space-x-2  flex-col md:flex-row'>
             <a href="#" className='cursor-pointer'> <img src="./assets/LearniumLogo.svg" alt="" /></a>
             <a href="https://bit.ly/tryLearniumDemo" className='md:flex md:space-x-2 md:items-center md:font-bold md:text-base md:text-neutral-400 cursor-pointer'> <p>Try demo</p> <i class="fa-solid fa-chevron-right"></i></a> 
@@ -49,7 +49,7 @@ const Main = () => {
         
          <footer className='flex space-x-2 justify-center pt-6 items-center font-normal text-sm text-neutral-700'>
                 <p>&copy; 2023 Learnium. All rights reserved.</p>
-                </footer>
+                </footer> */}
     </div>
   )
 }
