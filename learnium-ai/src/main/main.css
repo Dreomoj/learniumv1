@@ -1,0 +1,33 @@
+@keyframes colorCycle {
+    0%, 
+    100%{
+        filter: brightness(0) invert(1);
+    }
+     
+    50%{
+        filter: none;
+    }
+}
+
+.lightr {
+    padding: 0 0.67rem;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: colorCycle 10s ease-in-out infinite;
+}
+.lightr:nth-child(1) {
+    background-image: linear-gradient(90deg, #007cf0, #00dfd8);
+    animation-delay: 0s;
+}
+.lightr:nth-child(2) {
+    background-image: linear-gradient(90deg, #D98AFE, #F5CCCC);
+    animation-delay: 3.3333s;
+}
+.lightr:nth-child(3) {
+    background-image: linear-gradient(90deg, #0D2483, #3E64FF);
+    animation-delay: 6.6666s;
+}
+
+
