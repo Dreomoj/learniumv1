@@ -10,17 +10,16 @@ const Main = () => {
             <a href="https://bit.ly/tryLearniumDemo" className='md:flex md:space-x-2 md:items-center md:font-bold md:text-base md:text-neutral-400 cursor-pointer'> <p>Try demo</p> <i class="fa-solid fa-chevron-right"></i></a> 
         </div>
         <div className='flex justify-center items-center'>
-            <video className='w-full h-64 md:w-96 md:h-96' autoplay loop src="./assets/mesh.mp4"></video>
+            
+            <video autoPlay muted loop className='w-full h-64 md:w-96 md:h-96'>
+  <source src="./assets/mesh.mp4" type="video/mp4" />
+</video>
         </div>
         <div className='lg:flex justify-center md:block text-center'>
             
                 <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl lightr'>Innovate.</p>
                 <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl lightr'>Educate.</p>
                 <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl lightr'>Thrive.</p>
-            
-            {/* <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl'><span>Innovate.</span></p>
-            <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl'><span>Educate.</span></p>
-            <p className='text font-black tracking-[-0.04em] text-6xl md:text-8xl'><span>Thrive.</span></p> */}
             
         </div>
          <div className='pt-8 text-center'>
